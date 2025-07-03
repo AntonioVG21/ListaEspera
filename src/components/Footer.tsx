@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
               <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white to-orange-300">FotoGo</span>
             </div>
             <p className="text-slate-400 mb-8 max-w-md leading-relaxed">
-              La comunidad fotográfica donde tu creatividad tiene recompensa real. Participa, compite y gana premios increíbles con cada foto que compartas.
+              La comunidad fotográfica donde tu creatividad tiene recompensa real. Participa, compite y gana premios increíbles con cada foto que compartas
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-12 h-12 bg-slate-800/50 backdrop-blur-sm rounded-xl flex items-center justify-center hover:bg-gradient-to-r hover:from-orange-500 hover:to-pink-500 transition-all duration-300 border border-slate-700 hover:border-transparent group">
@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-slate-700 mt-12 pt-8 text-center">
           <p className="text-slate-400 font-medium">
-            © 2024 FotoGo. Todos los derechos reservados. Hecho con ❤️ para fotógrafos.
+            © 2024 FotoGo. Todos los derechos reservados. Hecho con ❤️ para fotógrafos que le encante crear.
           </p>
         </div>
       </div>
