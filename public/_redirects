@@ -1,0 +1,5 @@
+# Redirecciones para Netlify
+# Esto es un respaldo para la configuración en netlify.toml
+
+# Redirecciona todas las rutas a index.html para SPA
+/*    /index.html   200

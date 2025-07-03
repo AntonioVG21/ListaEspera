@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <!-- Fondo con gradiente -->
+  <rect width="1200" height="630" fill="url(#paint0_linear)" />
+  
+  <!-- Elementos decorativos de fondo -->
+  <circle cx="200" cy="150" r="300" fill="url(#paint1_radial)" opacity="0.3" />
+  <circle cx="1000" cy="450" r="250" fill="url(#paint2_radial)" opacity="0.3" />
+  <circle cx="600" cy="600" r="350" fill="url(#paint3_radial)" opacity="0.2" />
+  
+  <!-- Logo de FotoGo -->
+  <g transform="translate(450, 150) scale(2)">
+    <!-- Fondo redondeado con gradiente naranja a rosa -->
+    <rect width="64" height="64" rx="16" fill="url(#paint4_linear)" />
+    
+    <!-- Icono de cámara simplificado -->
+    <path d="M42 24H38L36 20H28L26 24H22C19.8 24 18 25.8 18 28V40C18 42.2 19.8 44 22 44H42C44.2 44 46 42.2 46 40V28C46 25.8 44.2 24 42 24ZM32 40C28.7 40 26 37.3 26 34C26 30.7 28.7 28 32 28C35.3 28 38 30.7 38 34C38 37.3 35.3 40 32 40ZM32 30C29.8 30 28 31.8 28 34C28 36.2 29.8 38 32 38C34.2 38 36 36.2 36 34C36 31.8 34.2 30 32 30Z" fill="white"/>
+    
+    <!-- Pequeño destello en la esquina superior derecha -->
+    <circle cx="44" cy="20" r="6" fill="url(#paint5_linear)" />
+    <path d="M44 17L45 20H48L45.5 22L46.5 25L44 23L41.5 25L42.5 22L40 20H43L44 17Z" fill="white"/>
+  </g>
+  
+  <!-- Texto FotoGo -->
+  <text x="600" y="350" font-family="'Inter', sans-serif" font-size="100" font-weight="900" text-anchor="middle" fill="white">FotoGo</text>
+  
+  <!-- Subtítulo -->
+  <text x="600" y="420" font-family="'Inter', sans-serif" font-size="36" font-weight="600" text-anchor="middle" fill="white">Red Social de Fotografía con Premios Reales</text>
+  
+  <!-- Llamada a la acción -->
+  <rect x="450" y="470" width="300" height="80" rx="40" fill="url(#paint6_linear)" />
+  <text x="600" y="525" font-family="'Inter', sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="white">Únete a la Lista VIP</text>
+  
+  <!-- Definiciones de gradientes -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A" />
+      <stop offset="0.5" stop-color="#1E293B" />
+      <stop offset="1" stop-color="#0F172A" />
+    </linearGradient>
+    
+    <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(200 150) rotate(90) scale(300)">
+      <stop stop-color="#F97316" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#F97316" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="paint2_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1000 450) rotate(90) scale(250)">
+      <stop stop-color="#EC4899" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#EC4899" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="paint3_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 600) rotate(90) scale(350)">
+      <stop stop-color="#A855F7" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0" />
+    </radialGradient>
+    
+    <linearGradient id="paint4_linear" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F97316" />
+      <stop offset="0.5" stop-color="#EC4899" />
+      <stop offset="1" stop-color="#A855F7" />
+    </linearGradient>
+    
+    <linearGradient id="paint5_linear" x1="38" y1="14" x2="50" y2="26" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0EA5E9" />
+      <stop offset="1" stop-color="#2563EB" />
+    </linearGradient>
+    
+    <linearGradient id="paint6_linear" x1="450" y1="470" x2="750" y2="550" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F97316" />
+      <stop offset="0.5" stop-color="#EC4899" />
+      <stop offset="1" stop-color="#A855F7" />
+    </linearGradient>
+  </defs>
+</svg>
