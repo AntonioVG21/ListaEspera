@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-slate-700 mt-12 pt-8 text-center">
           <p className="text-slate-400 font-medium">
-            © 2024 FotoGo. Todos los derechos reservados. Hecho con ❤️ para fotógrafos que le encante crear.
+            © 2024 FotoGo. Todos los derechos reservados. Hecho con ❤️ para fotografos.
           </p>
         </div>
       </div>
