@@ -18,21 +18,22 @@ export const useWaitlistStats = (): WaitlistStats => {
   });
 
   useEffect(() => {
-    // Mostrar números inmediatamente con valores por defecto
+    // Mostrar números iniciales mientras se carga la data real
     setStats(prev => ({
       ...prev,
-      totalUsers: 127, // Número base atractivo
+      totalUsers: 127, // Valor inicial que se actualizará con datos reales
       todaySignups: 8,
-      loading: false
+      loading: true
     }));
 
     const waitlistRef = collection(db, 'waitlist');
     
-    // Obtener todos los usuarios
+    // Obtener todos los usuarios en tiempo real
     const unsubscribeAll = onSnapshot(
       waitlistRef,
       (snapshot) => {
-        const totalUsers = Math.max(snapshot.size, 127); // Mínimo 127 para que se vea bien
+        // Usar el tamaño real de la colección sin el mínimo forzado
+        const totalUsers = snapshot.size;
         
         // Calcular signups de hoy
         const today = new Date();
@@ -60,7 +61,7 @@ export const useWaitlistStats = (): WaitlistStats => {
         setStats(prev => ({
           ...prev,
           loading: false,
-          error: null // No mostrar error al usuario, mantener números por defecto
+          error: 'Error al cargar estadísticas'
         }));
       }
     );
